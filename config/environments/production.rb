@@ -84,8 +84,8 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_cable.allowed_request_origins = ['https://action-cable-devise-chat-app.herokuapp.com',
-  'http://action-cable-devise-chat-app.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://dry-everglades-75411.herokuapp.com',
+  'http://dry-everglades-75411.herokuapp.com']
 
-  config.action_cable.url = "wss://action-cable-devise-chat-app.herokuapp.com/cable"
+  config.action_cable.url = "wss://dry-everglades-75411.herokuapp.com/cable"
 end
